@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Reflection>
+    <class name="BRTTIRefCount" base="root class" />
+    <class name="BPersistent" base="BRTTIRefCount">
+        <prop name="Name" type="String" />
+    </class>
+    <class name="OculusConfigData" base="BPersistent">
+        <prop name="Build" type="U32" />
+        <prop name="FullScreen" type="Bool" />
+        <prop name="HideCrowds" type="Bool" />
+        <prop name="Limit Movement" type="Bool" />
+        <prop name="VSync" type="Bool" />
+        <prop name="OnlyPlayer" type="Bool" />
+        <prop name="ResetVR" type="U32" />
+        <prop name="LimitCars" type="U32" />
+        <prop name="NearZ" type="F32" />
+        <prop name="GForceLat" type="F32" />
+        <prop name="GForceLong" type="F32" />
+        <prop name="GForceVert" type="F32" />
+        <prop name="GForce" type="F32" />
+        <prop name="WorldMovement" type="F32" />
+        <prop name="HeadMovement" type="F32" />
+        <prop name="UseLegacyWorldMovement" type="F32" />
+        <prop name="exposureFOV" type="F32" />
+        <prop name="IPD_Scale" type="F32" />
+        <prop name="ResScale" type="F32" />
+        <prop name="EyeOffsetY" type="F32" />
+        <prop name="EyeOffsetZ" type="F32" />
+        <prop name="PointerSwitchTime" type="F32" />
+        <prop name="PointerSwitchShortTime" type="F32" />
+        <prop name="PointerTriggerTime" type="F32" />
+        <prop name="PointerTriggerWarnTime" type="F32" />
+        <prop name="PointerTriggerArea" type="F32" />
+        <prop name="HUDSettings" type="Fct" />
+        <prop name="FrontEndSettings" type="Fct" />
+        <prop name="InGameSettings" type="Fct" />
+    </class>
+    <data class="OculusConfigData" id="0x428ED880">
+        <prop name="Name" data="" />
+        <prop name="Build" data="2820" />
+        <prop name="FullScreen" data="false" />
+        <prop name="HideCrowds" data="false" />
+        <prop name="Limit Movement" data="false" />
+        <prop name="VSync" data="false" />
+        <prop name="OnlyPlayer" data="false" />
+        <prop name="ResetVR" data="9" />
+        <prop name="LimitCars" data="20" />
+        <prop name="NearZ" data="0.1" />
+        <prop name="GForceLat" data="0" />
+        <prop name="GForceLong" data="0.15" />
+        <prop name="GForceVert" data="0" />
+        <prop name="GForce" data="0.15" />
+        <prop name="WorldMovement" data="0.5" />
+        <prop name="HeadMovement" data="0.5" />
+        <prop name="UseLegacyWorldMovement" data="0" />
+        <prop name="exposureFOV" data="60" />
+        <prop name="IPD_Scale" data="1" />
+        <prop name="ResScale" data="1.2" />
+        <prop name="EyeOffsetY" data="0.03" />
+        <prop name="EyeOffsetZ" data="-0.05" />
+        <prop name="PointerSwitchTime" data="10" />
+        <prop name="PointerSwitchShortTime" data="3" />
+        <prop name="PointerTriggerTime" data="1.5" />
+        <prop name="PointerTriggerWarnTime" data="1" />
+        <prop name="PointerTriggerArea" data="0.01" />
+        <prop name="HUDSettings" offSetX="0.000501" offSetY="0.024899" offSetZ="-0.245774" scale="0.333003" rotateX="-0.211209" rotateY="0.066308" rotateZ="-0.005140" rotateW="0.975176" />
+        <prop name="FrontEndSettings" offSetX="0.000000" offSetY="0.000000" offSetZ="-1.000000" scale="1.000000" rotateX="0.000000" rotateY="0.000000" rotateZ="0.000000" rotateW="1.000000" />
+        <prop name="InGameSettings" offSetX="0.000000" offSetY="0.000000" offSetZ="-1.000000" scale="1.000000" rotateX="0.000000" rotateY="0.000000" rotateZ="0.000000" rotateW="1.000000" />
+    </data>
+</Reflection>
